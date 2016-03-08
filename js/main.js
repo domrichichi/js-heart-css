@@ -7,8 +7,9 @@ var $p = $('main p:first-child');
 var $h2 = $('h2');
 var $ul = $('main ul');
 var $img = $('img');
-var $first = $('main ul:first-child')
-var $last
+var $first = $('main li:first-child');
+var $last = $('main li:nth-child(3)');
+var
 
 
 $header.addClass('masthead');
@@ -19,5 +20,7 @@ $p.addClass('intro');
 $h2.addClass('slug-head');
 $ul.addClass('slug-list');
 $img.addClass('slug-img');
-$first.addClass('slug-list-first')
-$
+$first.addClass('slug-list-first');
+$last.addClass('slug-list-last');
+
+
